@@ -1,0 +1,142 @@
+Chapter 3. Requirement Specification
+
+3.1 Problem Definition
+The system I’ll be developing is like a helpful friend for people’s mental health. It’s an app that offers tools and support to help users feel better emotionally and mentally. Think of it as a place where people can go when they’re feeling stressed, anxious or just need a little pick me up. This app will have features like mood tracking, meditation sessions, and stress relief techniques to help users manage their emotions. It will also connect users with offers who understand what they’re going through, creating a supportive community where people can share their experiences and find encouragement. Overall, this app aims to make taking care of your mental health easier and more accessible for everyone.
+Let me give you an insight of the system flow. The system flow of my app involves:
+1. User Registration/Login:
+ Users will start by registering for an account or logging into the app. This step ensures that each user has a personalized experience and access to their data.
+2. Mood Tracking:
+Once logged in, users can track their mood using the app’s mood tracking feature. They can select their current mood from predefined options or input their own feelings using text or emojis.
+3. Accessing Features:
+Users can then access various features of the app, such as guided meditation sessions, stress management techniques, and resources for mental health support. They can choose which features they want to explore based on their current needs and preferences.
+4. Engaging with Community:
+This app also provides a platform for users to connect with others through community forums, chat groups, or peer support networks. Her, users can share their experiences, ask questions, and offer support to one another.
+5. Chatbot: 
+Users can initiate a conversation with the chatbot in the critical situation.
+6. Feedback and Improvement:
+ Throughout the user journey, this app collects feedback from users through surveys, ratings, or direct input. This feedback is used to improve the app’s features, content, and users experience continuously.
+7. Logging out:
+Finally, users can log out of the app when they are done using it. This step ensures the security of their account and data.
+3.2 Requirement Gathering:
+There are various ways of gathering requirements but I opted for google form. Here Is an overview of my google form: 
+ 
+
+ 
+
+ 
+ 
+  
+
+ 
+
+
+Who has responded?
+59 responses
+ 
+
+ 
+
+Is there anything else you would like to share or suggest to improve MindEase?
+59 responses
+No
+-
+Nothing
+.
+NA
+Yess is there any option where we can connect with professional psychologist for consultation
+Not really....the app seems great already
+I think mental health is directly connected to yoga, meditation, and spiritual beliefs, so if possible, the application must help me to meditate by providing the benefits of it and also the sounds that can be heard while meditating.
+May be good tips to ease out the schedule
+I would like to have photos and videos of stress reliefing exercises
+In app messages and notifications should not become a distraction for users
+If it can calculate heartbeat rates to detect by finger touch if the person is having an anxiety attack and generating assurances and ways to calm down through push notifications
+Keep a track on individual who will have severe issues
+It should be simple and accessible to all.
+keeping it free of cost for more people to engage and benefit from it, daily self improvement quotes
+You add one feature or a section in your app where user can find an offline activity for reducing their stress. (please kindly contact me if you didn't get it )
+Social gathering is more important than social networking
+Na
+It should be simple and accessible to all
+Great idea
+Yess
+Do Involve professionals
+Would like to share after the usage
+Can also arrange virtual therapy sessions weekly and to track their progress
+Nil
+Keep improving
+No, I think it's perfect for it there is no improvement needed for mind ease
+All point covered so for me ok
+Calm n relax
+A reminder to ask about an update on mental health if we don't open the app
+Need more time for suggestions
+Yes please add motivation sessions
+...
+Integrate a virtual therapist chatbot feature that provides immediate responses and personalized suggestions would be valuable for users and make the user interface as simple as possible use calming colours for your application
+Interaction with people who are bounce back from adverse situation
+Calling feature to talk to professionals, free of cost or something for emergency
+Nope
+Games that does the mental exercise and relax the person
+
+
+3.2.2 Requirement Analysis
+Functional Requirements:
+
+1. User Registration and Authentication:
+- Users should be able to create accounts securely: The system should provide a user-friendly registration process where users can input their information securely. Upon successful registration, users should receive a confirmation email or message.
+- User should fill in some basic details like name, age and mental health history so that they can get personalised content.
+- If user doesn't know what mental disorder he is going through then by giving some simple answer to the question asked by the system they can get an idea of their mental health and accordingly get their content.
+- Login options should include email/password and social media integration: Users should have multiple options for logging into the system, including traditional email/password authentication and integration with popular social media platforms for convenience.
+
+2. Assessment and Tracking:
+- Users can complete mental health assessments and track mood, sleep patterns, and stress levels: The system should provide tools for users to assess their mental health status by answering questions or using self-assessment scales. Users should also be able to track their mood, sleep patterns, and stress levels over time.
+- The app offers personalized recommendations based on assessment results: Based on the user's assessment results, the system should generate personalized recommendations for activities, resources, or interventions to improve mental well-being.
+
+3. Content and Resources:
+- Access to articles, videos, and resources on mental health, yoga, meditation, and stress management techniques: The system should provide a library of educational materials, including articles, videos,journalling and resources covering various aspects of mental health and well-being, such as yoga, meditation, and stress management techniques.
+
+4. Communication and Support:
+- Features for users to connect with professional psychologists or therapists for virtual consultations: The system should facilitate secure between users and mental health professionals for virtual consultations or therapy sessions.
+- Option for one-on-one messaging, group chats, or forums for peer support: Users should have options to communicate with peers or support groups through one-on-one messaging, group chats, or forums within the app.
+
+5. Goal-Setting and Progress Tracking:
+- Users can set mental health goals and track their progress over time: The system should allow users to set specific, measurable goals related to their mental health and track their progress towards those goals over time.
+- Progress tracking feature allows users to monitor their achievements and milestones: Users should be able to view their progress, milestones, and achievements related to their mental health goals within the app.
+
+6. Reminders and Notifications:
+- Users can set reminders for self-care activities, appointments, or goal deadlines: The system should allow users to set reminders for self-care activities, such as meditation sessions, therapy appointments, or deadlines for achieving mental health goals.
+- Automatic reminders for mental health check-ins if the app is not used for a certain period: The system should automatically send reminders to users to check in on their mental health if they haven't used the app for a specified period.
+
+7. Suicide Prevention Chatbot:
+- User can chat with the AI Chatbot in case they feel low and the chatbot will suggest and gives ways to the users to overcome that problem.
+
+Non-Functional Requirements:
+
+1. Security:
+   - User data is kept safe by encoding it to prevent unauthorized access. User can only login via their Username and Password. And if the Username and Password matches with the one stored in the database then only the user can get access to it
+   - The system has security measures in place to stop unauthorized users from accessing sensitive information. The user's health history should not be easily accessed by anyone without the users concern.
+
+2. Performance:
+   - The app runs smoothly and quickly on all devices and internet connections.
+   - Users don't have to wait long for content to load or for assessments to complete.
+
+3. Accessibility:
+   - The app is easy to use for people with disabilities, with features like text-to-speech and alternative ways to interact.
+   - It follows guidelines to ensure everyone, regardless of ability, can use it effectively.
+
+4. Scalability:
+   - The system can handle more users and data as it grows without slowing down or crashing.
+   - It's designed to handle increased usage without losing performance or reliability.
+
+5. Usability:
+- The app should be user-friendly and accessible to all. the title should be self-explanatory and the contents should behave a short description. Also there should be a section where there should be a short section of all types of mental disorder. The app would also have a help section for the user in case they have any difficulty and also they will have a manual.
+
+
+System Requirements:
+1. Platform Compatibility:
+   - The app works on both iPhones and Android phones: The system should be made using special tools that allow the app to work on both types of phones.
+  
+2. Backend Infrastructure:
+   - The system uses a special secure place to store user information and make the app work, like a big, safe storage room in the internet: The system uses a safe and reliable place on the internet to store user information and make sure the app works well, even when lots of people are using it.
+
+3. Technologies:
+   - The system uses the latest tools and methods to make sure the app is safe, fast, and easy to update: The system uses new and trusted tools to build the app in a way that keeps it safe, makes it run fast, and makes it easy to fix or improve.
