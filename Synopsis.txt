@@ -1,0 +1,53 @@
+SYNOPSIS
+Title /Name of the project: Mental Health And Wellbeing App
+
+1.	Statement of the project:
+
+This is a helpful phone app all about making your mind feel good. It gives you tools and tips to keep your mental health strong and happy everyday.
+
+2.	Why this topic?
+
+I selected this topic because taking care of our mental health is super important , especially nowadays when life can be stressful. We want to make it easier for everyone to feel good in their minds and get support when they need it.
+
+3.	Objective and Scope:
+Objective: 
+
+•	Provide tools and resources to help users manage their health effectively
+•	Offer features like mood tracking, guided meditation and stress management techniques
+•	Help users connect with others for support and encouragement
+•	Encourage open talks about mental health to lesson shame and misunderstanding
+•	Give people the power to focus on their mental health and take care of themselves
+•	Keep making the app better by listening to what users say and using mental health technology
+•	Make it easy for everyone, no matter who they are, to get help with their mental health and feel okay about it.
+Scope:
+This app helps people feel better emotionally and mentally. This app is here to make it easier for everyone be it an android users, iOS or Desktop. 
+1.	Methodology: The development of this app will follow an iterative approach because I think it should be user centred. I will start by conducting thorough research to understand user needs and preferences regarding mental healthy apps. It will focus more on what people need because this app will be for the people.
+
+                 
+
+2.	Proposed Architecture: This app will adopt a three-tier architecture to ensure scalability, maintainability and security. The three tiers include:
+•	Top Layer: This is where you see and interact with the apps button and screens, like the home screen and settings menu. It is called the ‘Presentation Tier’.
+•	Middle Layer: Here where the app’s main brain does it work, like figuring out your mood from the data you input and guiding you through meditation exercises. It’s known as the ‘Application Tier’.
+•	Bottom Layer: This is like a secure visit where all your personal information such as mood history and user profile is stored. It’s called ‘Data Tier’.
+•	Each layer has its job the top layer handles what you see, the middle layer handles the app’s functions, and the bottom layer keeps your data safe. This setup helps keep app running smoothly and securely.
+
+3.	Requirements: 
+•	Frontend:
+•	Flutter: Flutter will be used for developing the user interface(UI) of the mobile app. Flutter offers a single codebase for iOS and android platforms, enabling faster development and consistent user experience across devices.
+•	Dart Programming Language
+•	Backend:
+•	Firebase
+•	Cloud Functions
+•	Database:
+•	Firestore, a NoSQL Cloudbase
+•	Hosting:
+•	Firebase Hosting
+•	Other Tools:
+•	Firebase Authentication
+•	Firebase Cloud Messaging
+
+4.	Contribution:
+This app wants to help people feel better and stronger in their minds. By giving tools to manage stress and bad moods, it hopes to make mental health support easier to get and talk about. With features like tracking how they feel and guides for relaxing, it helps people feel happier. It also lets people connect with others who understand and support them. It gives them information and advice from experts too. With the help of this app, people can set goals and see how they are doing, which helps them handle tough times better. Overall, this app is like a helpful friend, making it easier for everyone to feel good in their mind and live a better life.
+
+5.	Conclusion:
+This app is just like your friend which helps you feel better. It gives you tools to feel happier and take care of your mental health with features like mood tracking, relaxation guides, and community support, this app makes it easier for everyone to live a better, more balanced life. So, if you want to feel good and stay happy, this app is here to lend a helping hand. So, let’s keep smiling and living our best lives with this app by our side!
