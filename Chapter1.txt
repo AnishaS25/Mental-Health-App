@@ -20,3 +20,4 @@ The purpose of this app is to help people feel better emotionally and mentally. 
 The scope of this app is help people with their mental health. It will include features like mood tracking, meditation, and stress relief techniques. Users can also connect with others for support. The app aims to be user-friendly and inclusive for everyone who wants to take care of their mental wellbeing.
 1.3.3 Applicability
 The applicability of this app is for anyone who wants to take care of their mental health. Whether you’re feeling stressed, anxious or just want to feel better emotionally, this app offers tools and resources to help. It’s for people of all ages and backgrounds who want to prioritize their wellbeing and feel supported in their journey towards better mental health.
+*** seen by hem ***
