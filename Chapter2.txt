@@ -1,0 +1,80 @@
+Chapter 2. Survey Of Technologies
+
+
+
+1.	Integrated Development Environment(IDEs):
+1. Android Studio:
+   Platform: Android
+   Description: Android Studio is the official IDE for Android app development, provided by Google. It offers a comprehensive set of tools for designing, coding, testing, and deploying Android apps. Android Studio is based on IntelliJ IDEA and includes features like code completion, debugging, and performance profiling.
+2. Xcode:
+   Platform: iOS, macOS, watchOS, tvOS
+   Description: Xcode is Apple's IDE for developing apps for iOS, macOS, watchOS, and tvOS. It provides a complete development environment with a code editor, interface builder, testing tools, and performance analysis instruments. Xcode supports multiple programming languages including Swift and Objective-C.
+3. Visual Studio (VS) / Visual Studio Code (VS Code):
+   Platform: Cross-platform (Windows, macOS, Linux)
+   Description: Visual Studio is a powerful IDE developed by Microsoft primarily for Windows-based app development using languages like C#, C++, and Visual Basic. Visual Studio Code (VS Code), on the other hand, is a lightweight, cross-platform code editor that supports a wide range of programming languages and frameworks. Both Visual Studio and VS Code offer extensions for mobile app development, including support for Xamarin for cross-platform mobile development.
+4. IntelliJ IDEA:
+   Platform: Cross-platform (Windows, macOS, Linux)
+   Description: IntelliJ IDEA is a popular Java IDE developed by JetBrains. While it's not specific to mobile app development, it's commonly used for developing Android apps, especially when using Kotlin. IntelliJ IDEA provides advanced code analysis, refactoring tools, and support for various frameworks and technologies.
+5. Eclipse:
+   Platform: Cross-platform (Windows, macOS, Linux)
+   Description: Eclipse is an open-source IDE primarily used for Java development but supports other languages and platforms through plugins. It has been historically popular for Android app development, although its usage has declined with the rise of Android Studio. Eclipse offers features like code refactoring, debugging, and version control integration.
+7. Flutter/DartPad:
+   Platform: Cross-platform (Web-based)
+   Description: DartPad is an online code editor provided by Google for experimenting with the Dart programming language, which is used for building apps with Flutter. While not a full-fledged IDE, DartPad is useful for quick prototyping and learning Dart syntax. Flutter also has extensions for popular editors like Visual Studio Code and IntelliJ IDEA, providing IDE-like features for Flutter development.
+Why I selected VS Code?
+Visual Studio Code (VS Code) is a popular tool for developers because it works on all kinds of computers, it's not too heavy, and it runs really fast. It has lots of extra features that you can add to make it work just the way you want. You can use it to write code in many different languages and frameworks. It helps you write code faster with cool features like IntelliSense, which gives you hints while you're typing. You can also change how it looks and works to suit your style. Lots of people use it, so if you have questions or need help, there are plenty of others who can help you out. Best of all, it's free to use, and anyone can help make it better by sharing their ideas and improvements!
+2.	Programming Language:
+Java: Used for Android app development. Java is the official language for Android development, providing a robust ecosystem of libraries and tools.
+Kotlin: Kotlin is increasingly becoming the preferred language for Android development due to its modern features, interoperability with Java, and concise syntax. It's fully supported by Google for Android development.
+Swift: Swift is the primary programming language for iOS, macOS, watchOS, and tvOS app development. It offers safety features, performance improvements, and ease of learning compared to Objective-C.
+Objective-C: While Swift has largely replaced Objective-C for new iOS development, Objective-C is still used in legacy codebases and some existing iOS apps.
+Dart: Dart is the language used for Flutter, Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. Flutter allows you to develop cross-platform mobile apps with Dart.
+Why I chose Dart?
+Choosing Dart for app development, especially with Flutter, is a great idea because Dart is easy to learn and use. With Flutter, you can build apps for both iOS and Android with just one codebase, saving time and effort. Dart helps make your apps run smoothly and look great, and you can see your changes instantly while you're working on them. Plus, Dart helps catch mistakes in your code before your app is even finished, making it more reliable. Overall, Dart and Flutter make app development fun, fast, and reliable!
+3.	Database:
+1. SQLite:
+   Type: Relational Database Management System (RDBMS)
+   Description: SQLite is a lightweight, embedded database engine that is widely used for local data storage in mobile apps. It requires minimal setup and configuration, making it easy to integrate into apps. SQLite databases are self-contained and stored as a single file, making them convenient for mobile apps that need to store small to moderate amounts of data.
+2. Realm:
+   Type: Mobile Database
+   Description: Realm is a mobile database designed specifically for mobile app development. It offers real-time synchronization across devices, encryption for data security, and support for offline-first app architectures. Realm provides object-oriented data modeling and integrates seamlessly with popular mobile app frameworks like Flutter, React Native, and Xamarin.
+3. Firebase:
+   Type: Cloud-hosted Database
+   Description: Firebase is a comprehensive platform provided by Google that offers various services for building and running mobile and web apps. Firebase Realtime Database and Cloud Firestore are NoSQL databases offered by Firebase for storing and syncing app data in real time. They are well-suited for applications requiring real-time updates, collaboration features, and offline data synchronization.
+4. MySQL:
+   Type: Relational Database Management System (RDBMS)
+   Description: MySQL is one of the most popular open-source relational databases used for server-side development. It offers high performance, scalability, and reliability, making it suitable for a wide range of applications, from small websites to large-scale enterprise systems. MySQL is commonly used with web frameworks like Django, Ruby on Rails, and Node.js for building backend services.
+5. PostgreSQL:
+   Type: Relational Database Management System (RDBMS)
+   Description: PostgreSQL is an open-source relational database known for its advanced features, extensibility, and SQL compliance. It provides ACID compliance, robust concurrency control, and support for JSON data types and full-text search. PostgreSQL is favored by developers for applications requiring complex data modeling, data integrity, and scalability.
+6. MongoDB:
+   Type: NoSQL Database
+   Description: MongoDB is a popular NoSQL database known for its flexibility, scalability, and ease of use. It stores data in flexible, JSON-like documents, making it suitable for handling unstructured or semi-structured data. MongoDB is commonly used in modern web and mobile app development for its ability to quickly iterate on data models and adapt to changing requirements.
+Why Firebase?
+Firebase is a fantastic choice for app development because it offers a bunch of useful features in one package. With Firebase, you get real-time data syncing, so changes made by one person show up instantly for everyone else. It also handles user authentication easily, so you don't have to worry about setting up login systems from scratch. Firebase can even host your website or app and deliver it super fast to people all around the world. Plus, it has tools for storing files, analyzing how people use your app, and even adding smart features using machine learning. With Firebase, you have everything you need to build a great app quickly and efficiently!
+
+4.	Framework:
+1. Flutter:
+   Type: UI Toolkit
+   Description: Developed by Google, Flutter is an open-source UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. It uses the Dart programming language and offers a rich set of pre-built widgets and tools for creating beautiful and performant user interfaces.
+2. React Native:
+   Type: UI Toolkit
+   Description: Developed by Facebook, React Native is an open-source framework for building cross-platform mobile applications using JavaScript and React. It allows developers to write code once and deploy it to multiple platforms, including iOS and Android, while maintaining a native-like user experience.
+3. Xamarin:
+   Type: Cross-platform Framework
+   Description: Developed by Microsoft, Xamarin is an open-source framework for building cross-platform mobile applications using C# and the .NET framework. It allows developers to share code across platforms and access native APIs, libraries, and UI controls, providing a native user experience.
+4. Ionic:
+   Type: Hybrid App Framework
+   Description: Ionic is an open-source framework for building hybrid mobile applications using web technologies such as HTML, CSS, and JavaScript. It provides a set of UI components, themes, and tools for building cross-platform apps that run inside a webview container on native platforms.
+5. AngularJS / Angular:
+   Type: Web Application Framework
+   Description: Developed by Google, AngularJS (Angular 1.x) and Angular (versions 2 and above) are web application frameworks for building single-page applications (SPAs) and progressive web apps (PWAs). They use TypeScript and offer features like two-way data binding, dependency injection, and component-based architecture.
+6. Vue.js:
+   Type: Web Application Framework
+   Description: Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications. It offers a progressive and incrementally adoptable architecture, making it easy to integrate with existing projects. Vue.js emphasizes simplicity, flexibility, and performance.
+7. Electron:
+   Type: Desktop Application Framework
+   Description: Electron is an open-source framework for building cross-platform desktop applications using web technologies like HTML, CSS, and JavaScript. It allows developers to create native-like desktop applications for Windows, macOS, and Linux using a single codebase.
+
+Why Flutter?
+Choosing Flutter for app development is a great idea because it lets you make apps for iOS, Android, web, and desktop all at once, saving you time and effort. It's super fast to develop with because you can see your changes right away without waiting. Flutter also makes it easy to create really nice-looking designs that work smoothly, just like native apps. Plus, it's backed by Google and has a big community of people who can help you out. With Flutter, you can make awesome apps for different platforms quickly and 
