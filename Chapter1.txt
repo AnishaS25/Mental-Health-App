@@ -1,0 +1,22 @@
+Chapter 1: INTRODUCTION
+
+1.1 BACKGROUND:
+
+The mental health and wellbeing app is created because people are feeling more stressed and anxious these days, and there aren’t enough easy ways to help with these feelings. The app was made to be easy to use and has things like tracking how you feel, listening to calming sessions, and learning ways to deal with stress. It also connects you with others who understand what you are going through. There are many well-known apps which give us such techniques and tools like Wysa, BetterMe, Smiling Mind, VOS, Intellect. Their big goal is to help everyone feel supported and encouraged to take care of their mental health. This app want to help people take care of their minds and make talking about mental less scary.
+
+1.2 OBJECTIVES:
+•	Help people feel less stressed and anxious.
+•	Provide easy-to-use tools for managing emotions.
+•	Connect users with supportive communities.
+•	Make talking about mental health less scary.
+•	Encourage self-care and well-being.
+•	Improve the app based on user feedback.
+•	Make mental health support accessible to everyone.
+
+1.3 PURPOSE, SCOPE AND APPLICABILITY
+1.3.1 Purpose
+The purpose of this app is to help people feel better emotionally and mentally. It provides tools and resources like mood tracking, meditation and stress management techniques to support users in managing their mental health. The app also connect users with supportive communities, making it easier for everyone to prioritize their wellbeing and feel supported.
+1.3.2 Scope
+The scope of this app is help people with their mental health. It will include features like mood tracking, meditation, and stress relief techniques. Users can also connect with others for support. The app aims to be user-friendly and inclusive for everyone who wants to take care of their mental wellbeing.
+1.3.3 Applicability
+The applicability of this app is for anyone who wants to take care of their mental health. Whether you’re feeling stressed, anxious or just want to feel better emotionally, this app offers tools and resources to help. It’s for people of all ages and backgrounds who want to prioritize their wellbeing and feel supported in their journey towards better mental health.
