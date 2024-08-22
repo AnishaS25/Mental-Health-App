@@ -140,3 +140,92 @@ System Requirements:
 
 3. Technologies:
    - The system uses the latest tools and methods to make sure the app is safe, fast, and easy to update: The system uses new and trusted tools to build the app in a way that keeps it safe, makes it run fast, and makes it easy to fix or improve.
+Certainly! Here's an explanation in simpler terms:
+
+ 1. Security
+Keeping Data Safe:
+- Use secure connections (like HTTPS) to protect data when it's sent over the internet.
+- Encrypt sensitive information to keep it safe from hackers.
+
+User Verification:
+- Require users to verify their identity in more than one way (like using a password and a code sent to their phone).
+- Use secure methods for users to log in and access their accounts.
+
+Access Control:
+- Make sure only authorized people can access sensitive information.
+- Regularly check and update who has access to what.
+
+Regular Security Checks:
+- Regularly scan the app for security weaknesses and fix them.
+- Use security tools to help find and address potential threats.
+
+ 2. Performance
+Speed Optimization:
+- Write efficient code to make the app run faster.
+- Use services that help deliver content quickly to users.
+
+Efficient Use of Resources:
+- Manage memory and other resources wisely to avoid slowdowns.
+- Load images and data only when needed to speed up the app.
+
+Monitoring and Testing:
+- Continuously check the app’s performance to ensure it runs smoothly.
+- Test the app under heavy load to find and fix performance issues.
+
+ 3. Accessibility
+Making the App Usable for Everyone:
+- Follow guidelines to ensure the app is usable by people with disabilities.
+- Use proper HTML tags and accessibility roles to support screen readers.
+
+Testing for Accessibility:
+- Test the app with screen readers and other accessibility tools.
+- Get feedback from users with disabilities to improve accessibility.
+
+Alternative Input Methods:
+- Ensure the app works with keyboard navigation and voice commands.
+- Provide text descriptions for images and videos.
+
+ 4. Scalability
+Handling More Users:
+- Use cloud services that can easily add more resources when needed.
+- Automatically adjust resources based on user demand.
+
+Breaking the App into Smaller Pieces:
+- Design the app in smaller parts that can be scaled individually.
+- Use load balancing to evenly distribute user traffic.
+
+Managing Large Amounts of Data:
+- Split and replicate the database to handle more data.
+- Use caching to store frequently accessed data for quick retrieval.
+
+ 5. Usability
+User-Friendly Design:
+- Design the app to be simple and consistent.
+- Create wireframes and prototypes to test and improve the design early on.
+
+Testing with Real Users:
+- Conduct tests with actual users to find and fix usability issues.
+- Use A/B testing to compare different designs and choose the best one.
+
+Collecting User Feedback:
+- Allow users to provide feedback within the app.
+- Regularly review feedback and usage data to make improvements.
+
+Implementation Plan:
+1. Planning:
+   - Clearly define what non-functional requirements are needed and how to measure their success.
+   - Allocate enough resources and time to address these requirements.
+
+2. Development:
+   - Integrate security, performance, accessibility, scalability, and usability into the development process.
+   - Use the right tools and frameworks to support these requirements.
+
+3. Testing:
+   - Perform thorough testing, including security, performance, accessibility, and usability testing.
+   - Use both automated and manual testing methods to cover all areas.
+
+4. Monitoring and Maintenance:
+   - Continuously monitor the app once it's live to ensure it’s running well.
+   - Regularly update and improve the app based on monitoring data and user feedback.
+
+By following these steps, you can ensure the app is safe, fast, easy to use, can handle more users, and is accessible to everyone.

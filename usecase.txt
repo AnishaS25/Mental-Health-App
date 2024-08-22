@@ -1,0 +1,125 @@
+Register
+use case : Register
+Summary : Create a new account 
+Actors ; Pshychologist, user
+Preconditions: Have the app and internet access 
+Description : Fill in the registration form and comfirm your email
+Exceptions : Email already used , wrong information 
+Postconditons : Account is created and a confirmation email is sent 
+
+
+Login 
+Use case : Login
+Summary : log into the app 
+Actors : User,Psycho9logist
+Preconditions : Must have an account 
+Description : Enter your email and password to Login
+Exceptions : wrong email or password
+Postconditons : Logged into the app , last login date is updated
+
+Updated profile 
+use case : Upate profile
+Summary : Change your profile information
+Actors : User , Psycho9logist
+Preconditions : Must be logged in
+Description : Editr your profile info and save changes
+Exceptions: wrong info
+ Postconditons : Profile info updated
+
+ log mood entry
+ use case : Log Mood entry
+ Summary : Record how you feel and also notes if any
+ Actors : User 
+ preconditions : Must be logged in
+ Description : choose a mood rating, add notes and save
+ Exceptions : Can't save mood entry
+ Postconditons : Mood entry is saved
+
+ View mood history
+ use case: view mood history
+ summary: Look at the past mood entries.
+ Actors: userpreconditions: must be logged in, must have mood entries
+ Description: Go to the mood history and see past entries
+ Exceptions: Can't retrieve mood entries.
+ Postconditons: Past mood entries are displayed.
+
+ Create Journal entry
+ Use case: Create Journal entry
+ Summary: Write a new journal entry
+ Actors: user
+ preconditions: Must be logged in.
+ Description: Write your journal entry, add tags and save.
+ Exceptions: can't save journal entry
+ Postconditons: Journal entry is saved.
+
+ View Journal history
+ use case: view journal history
+ summary: look at thye past journal entries
+ Actors: User
+ preconditions: must be logged in, must have journal entries.
+ Description: Go to journal history and see past entries.
+ Exceptions: Can't retrieve journal entries.
+ Postconditons: Past journal entries are displayed.
+
+ Log Activity
+ Use case: Log Activity
+ Summary: Record details of an Activity
+ Actors: user
+  Preconditions: Mustbe logged in.
+  Description: Enteractivity details and save.
+  Exceptions: can't save Activity log.
+  Postconditons: Activity log is saved.
+
+View Activity history
+Use case: View Activity history
+Summary: Look at the past activities
+Actors: User
+Preconditions: Must be logged in, must have Activity logs.
+Description: Go to Activity history and see past logs.
+Exceptions: can't retrieve Activity log.
+Postconditons: Past activity logs are displayed.
+
+Book Appointment
+Use case: Book Appointment
+Summary: Schedule an appointment with a psychologist.
+Actors: User
+Preconditions: Must be logged in, must have available psychologists and time slots.
+Description: Choose a psychologistaqnd time slot, then confirm.
+Exceptions: Time slot no available, can't save appointment.
+Postconditons: Appointment is saved, psychologist is notified.
+
+View Appointment
+Use case: Voew Appointments
+Summary: Look at upcoming and past appointments.
+Actors: User, Psychologist.
+Preconditions: Must be logged inb, must have appointment.
+Description: Go to the appointments and see details.
+Exceptions: Can't retrieve appointments.
+Postconditons: Appointments are displayed.
+
+Access Resources
+Use Case: Access Resources
+Summary: Browse mental health Resources.
+Actors: User
+Preconditions: Must be logged in, must have resources.
+Description: Go to resources and see the list.
+Exceptions: Can't retrieve resources.
+Postconditons: Resources are displayed.
+
+Search Resources
+Use Case: Search Resources
+Summary: Look for specific Resources.
+Actors: User
+Preconditions: Must be logged in, must have resources.
+Description: Enter search keywords and see the results.
+Exceptions: Can't retrieve search results.
+Postconditons: Search results are displayed.
+
+Manage Appointments
+Use Case: Manage Appointments
+Summary: View and update appointment details.
+Actors: User
+Preconditions: Must be logged in, must have appointments.
+Description: Go to manage appointments, update details.
+Exceptions: Can't retrieve or save updates.
+Postconditons: Appointment details are updated.

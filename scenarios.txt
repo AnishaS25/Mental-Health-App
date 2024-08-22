@@ -1,0 +1,107 @@
+User Registration 
+Scenario:
+1. User opens the app.
+2. System displays the registration screen.
+3. User enter personal details(first name, last name, email, password, date of birth, gender, phone no., address)
+4. System validates the entered details.
+5. If any required fields are missing, system displays an error message and prompts the user to fill in the missing details.
+6. If the email is already registered, system displays an error message and prompts the user to enter a DIFFERENT EMAIL.
+7. Otherwise system saves the user details and creates a new user record.
+8. System displays a successful registration message.
+9. User receives a confirmation email.
+
+User Login
+1. User opens the app.
+2. System dislays the login screen.
+3. USer enters email and password.
+4. Syetem verifoies the email and password.
+5. if the email otr password is incorrect, system displays an error message and prompts the user to try again.
+6. Else system establishes a secure session.
+7. System shows the user dashboard
+
+Update Profile
+1. User logs in.
+2. System creates the user dashboard.
+3. System shows the user dashboard.
+4. User goes to the profile section.
+5. System shows the profile information.
+6. User updates bio, interests, goals, and preferences.
+7. System checks the updated information.
+8. If any details are missing or invalid, system shows an error and asks the user to correct them.
+9. Otherwise system saves the updated  profile information.
+10. System shows a confirmation message.
+
+Track activities
+1. User logs in.
+2. System createsd a secure session.
+3. System shows the user dashboard.
+4. User goes to the activities section.
+5. System shows the activity tracking screen.
+6. User selects an activity type(e.g. exercise, meditation, etc).
+7. User enters the duration and notes.
+8. If the duration is missing or invalid, system shows an errorand asks the user to enter it correctly.
+9. Otherwise System saves the activity entry.
+System shows a confirmation message.
+
+Log mood entry
+1. User logs in.
+2. System createsa secure session.
+3. System shows the user dashboard.
+4. User goes to the mood tracking section.
+5. System shows the mood entry screen.
+6. User selects a mood rating and enters notes.
+7. If mood rating is missing,system shows an error and asks the user to select it.
+8. Otherwise System saves the mood entry.
+9. System shows a confirmation message.
+
+Record Journal entry
+1. User logs in.
+2. System creates a secure session.
+3. System shows the user dashboard.
+4. User goes to the journal section.
+5. System shows the journal entry screen.
+6. User enters the journal content.
+7. If content is missing, system shows an error and asks the user to enter it.
+8. Otherwise System saves the journal entry.
+9. System shows a confirmation message.
+
+Book Appointment
+1. User logs in.
+2. System creates a secure session.
+3. System shows the user dashboard.
+4. User goes to the appointment booking section.
+5. System shows the lists of available psychologists.
+6. User selects a psychologist.
+7. If the psychologist is not available, system shows an error and asks the user to choose another one.
+8. Otherwise System showsthe psychologist's available times.
+9. Then user selects a date and time.
+10. If the time slot is already booked, system shows an error and asks the user to choose another time.
+11. If everything goes well then user enters appointment notes.
+12. System checks if the time slot is still available.
+13. System saves the appointment.
+14. System sends a confirmation notification to the user.
+15. System shows a confirmation message.
+
+Access Resources
+1. User logs in.
+2. System creates a secure session.
+3. System shows the user dashboard.
+4. User goes to the resources section.
+5. System shows the list of resources.
+6. User selects a resource.
+7. If the resource is not available, system shows an error.
+8. Otherwise System shows the resource content.
+9. User reads or views the resource.
+
+Psychologist Manages Appointment
+1. Psychologist logs in.
+2. System creates a secure session.
+3. System shows the psychologist dashboard.
+4. User goes to the appointment section.
+5. System shows the list of scheduled appointment.
+6. Psychologist selects an appointment.
+7. If the appointment is missing, system shows an error.
+8. Otherwise System shows the appointment details.
+9. Psychologist updates the appointment status.
+10. System sends a notification message to the user.
+11. System shows a confirmation message
